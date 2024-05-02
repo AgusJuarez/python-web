@@ -7,5 +7,6 @@ def footer() -> rx.Component:
         rx.link(f"cosas asombrosas en este {datetime.date.today().year}", 
                 href="https://github.com/AgusJuarez", 
                 is_external=True
-                )
+                ),
+        align="center"
     )
